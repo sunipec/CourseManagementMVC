@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student ScoreCard</title>
+</head>
+<body>
+<h2>Stduent ScoreCard</h2>
+
+<div class="container">
+	<form action="scoreCard">
+	<h3>Enter Student Details to see marks</h3><br><br>
+	<label>Student Id </label><br>
+	 <input type="text" name="sid"><br><br>
+	 <label>Student Name </label><br>
+	  <input type="text" name="sname"><br><br>
+	 <label>Course Id </label><br>
+	  <input type="text" name="cid"><br><br>
+	  
+	  <input type="submit" ><br><br>
+	  
+	</form>
+</div>
+</body>
+</html>
